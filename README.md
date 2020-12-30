@@ -33,3 +33,5 @@ RAILS_ENV=production bundle exec rails webpacker:install
 RAILS_ENV=production bundle exec rake db:migrate assets:precompile
 
 docker-compose run --rm web rails c
+
+Spree::Store.current.touch

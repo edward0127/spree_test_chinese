@@ -3,7 +3,15 @@ default:
     - title: 婴儿奶粉
       subtitle: Categories
       url: /t/formula
-      # items:
+      items:
+        - :title: 一段
+          :url: /t/categories/formula/stage1
+        - :title: 二段
+          :url: /t/categories/formula/stage2
+        - :title: 三段
+          :url: /t/categories/formula/stage3
+        - :title: 四段
+          :url: /t/categories/formula/stage4
       #   - :title: Skirts
       #     :url: /t/women/skirts
       #   - :title: Dresses
